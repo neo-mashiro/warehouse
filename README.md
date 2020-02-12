@@ -1,7 +1,3 @@
-> Home of CS
-> https://www.geeksforgeeks.org/
-
-
 # SYS
 
 > file:///home/neo-mashiro/self/Warehouse/CSAPP  
@@ -109,6 +105,7 @@
 # C/C++
 > file:///home/neo-mashiro/self/Warehouse/C++
 - Meet CLion - https://www.jetbrains.com/help/clion/meet-clion.html
+- Home of CS - https://www.geeksforgeeks.org/
 - Google C++ Style Guide - https://google.github.io/styleguide/cppguide.html
 - C++ Library reference 1 - http://www.cplusplus.com/reference/
 - C++ Library reference 2 - https://en.cppreference.com/w/
