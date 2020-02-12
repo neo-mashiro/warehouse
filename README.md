@@ -1,6 +1,6 @@
 # SYS
-> file:///home/neo-mashiro/self/Warehouse/CSAPP
-> file:///home/neo-mashiro/self/Warehouse/SICP
+> file:///home/neo-mashiro/self/Warehouse/CSAPP  
+> file:///home/neo-mashiro/self/Warehouse/SICP  
 > file:///home/neo-mashiro/self/Warehouse/OS
 - CMU 213, CSAPP - http://www.cs.cmu.edu/~213/
 - MIT 6.001, SICP Lisp version - [MIT OCW 6.001 link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/index.htm)
@@ -27,6 +27,8 @@
 - CMU CS15-441/641, Computer Networks - https://computer-networks.github.io/sp19/index.html
 - Stanford CS144, Introduction to Computer Networking - https://www.scs.stanford.edu/10au-cs144/
 - Beej's Guide to Network Programming Using Internet Sockets - http://beej.us/guide/bgnet/html/
+- POSIX Threads Programming - https://computing.llnl.gov/tutorials/pthreads/
+- POSIX thread (pthread) libraries - http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
 
 # Raspberry Pi
 - IOT Specialization, Coursera - https://www.coursera.org/specializations/iot
@@ -45,13 +47,13 @@
 - TensorFlow in Practice Specialization, Coursera - https://www.coursera.org/specializations/tensorflow-in-practice
 
 # Unix
-- Ubuntu 16.04 Installation Guide - https://github.com/neo-mashiro/Warehouse/wiki/Ubuntu-16.04-LTS-64-bit-Installation-&-Configuration-Guide
+- Ubuntu 16.04 Installation Guide - on [wiki page](https://github.com/neo-mashiro/Warehouse/wiki/Ubuntu-16.04-LTS-64-bit-Installation-&-Configuration-Guide)
 - GDB tutorial - https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf
 - GDB demo - https://www.youtube.com/watch?v=bWH-nL7v5F4
 - Makefile sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/makefile.md
 - Shell review - https://github.com/neo-mashiro/Warehouse/blob/master/doc/commands.sh
 - Shell in Jupyter notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/shell.ipynb
-- VPS Setup Guide - https://github.com/neo-mashiro/Warehouse/wiki/Virtual-Private-Server-Setup-Guide
+- VPS Setup Guide - on [wiki page](https://github.com/neo-mashiro/Warehouse/wiki/Virtual-Private-Server-Setup-Guide)
 - VPS automated task - https://github.com/neo-mashiro/Warehouse/blob/master/doc/vps.sh
 
 # Emacs
@@ -123,7 +125,7 @@
 - Python Standard Library - https://docs.python.org/3/library/index.html
 - Jupyter notebook tips and tricks - https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
 - Manage packages with pip - https://pip-python3.readthedocs.io/en/stable/user_guide.html
-- Package reference - numpy, pandas, matplotlib, seaborn, [networkx](https://networkx.github.io/documentation/stable/index.html)
+- Package reference - [numpy](), [pandas](), [matplotlib](), [seaborn](), [networkx](https://networkx.github.io/documentation/stable/index.html)
 
 # R/Rstudio
 > file:///home/neo-mashiro/self/Warehouse/R
