@@ -48,11 +48,11 @@
 - Ubuntu 16.04 Installation Guide - https://github.com/neo-mashiro/Warehouse/wiki/Ubuntu-16.04-LTS-64-bit-Installation-&-Configuration-Guide
 - GDB tutorial - https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf
 - GDB demo - https://www.youtube.com/watch?v=bWH-nL7v5F4
-- Makefile sample - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/makefile.md
-- Shell review - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/commands.sh
-- Shell in Jupyter notebook - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/shell.ipynb
+- Makefile sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/makefile.md
+- Shell review - https://github.com/neo-mashiro/Warehouse/blob/master/doc/commands.sh
+- Shell in Jupyter notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/shell.ipynb
 - VPS Setup Guide - https://github.com/neo-mashiro/Warehouse/wiki/Virtual-Private-Server-Setup-Guide
-- VPS automated task - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/vps.sh
+- VPS automated task - https://github.com/neo-mashiro/Warehouse/blob/master/doc/vps.sh
 
 # Emacs
 > `root@starspower > emacs -nw  # editor mode`
@@ -83,7 +83,7 @@
 - CodePen Pure CSS3 Gradient Background Animation - https://codepen.io/P1N2O/pen/pyBNzX
 
 # Markdown
-- Markdown notebook - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/markdown.md
+- Markdown notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/markdown.md
 - Markdown cheatsheet - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Markdown Firefox extension for emails - https://github.com/adam-p/markdown-here
 
@@ -95,10 +95,8 @@
 - LaTeX Journal Article Templates for R Markdown - https://github.com/rstudio/rticles
 - HTML samples - [Date Exploration](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/brfss_eda.html), [Statistical Inference](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/gss_inference.html), [Multiple_Linear_Regression](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/multiple_linear_regression_peers_Rony_Sulca.html)
 - Pandoc User's Guide - https://pandoc.org/MANUAL.html
-- CV template - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/CV.rmd
-  - CV output - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/CV.pdf
-- Article template - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/article.Rmd
-  - Article output - https://github.com/neo-mashiro/Warehouse/blob/qq/doc/article.pdf
+- CV template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/CV.rmd
+- Article template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/article.Rmd
 
 # C/C++
 > file:///home/neo-mashiro/self/Warehouse/C++
