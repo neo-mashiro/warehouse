@@ -11,6 +11,14 @@
 - Stanford CS140, Operating Systems - https://www.scs.stanford.edu/19wi-cs140/
 - CMU 15-410, Operating System Design and Implementation - https://www.cs.cmu.edu/~410/
 
+# ALGO
+
+> file:///home/neo-mashiro/self/Warehouse/ALGO
+- Algorithms and data structures notebook - [Part 1](https://github.com/neo-mashiro/Warehouse/blob/master/doc/algo1.ipynb), [Part 2](https://github.com/neo-mashiro/Warehouse/blob/master/doc/algo2.ipynb)
+- Graphs and networks - [NetworkX workshop](https://github.com/neo-mashiro/Warehouse/blob/master/doc/NetworkX%20workshop), [NetworkX SNA workshop](https://github.com/neo-mashiro/Warehouse/blob/master/doc/NetworkX%20SNA%20workshop)
+- Path to FLAG offers - https://leetcode.com/, https://www.lintcode.com/
+
+
 # DB
 > file:///home/neo-mashiro/self/Warehouse/DB  
 > file:///home/neo-mashiro/Documents/CAREER/2016-2019 @MANULIFE
