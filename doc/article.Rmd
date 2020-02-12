@@ -1,0 +1,143 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    latex_engine: pdflatex
+    template: svm-r-markdown-templates/svm-latex-ms.tex
+title: "Letter of explanation"
+author:
+- name: Wentao Lu
+  affiliation: Associate Software Engineer, Manulife-Sinochem Life Insurance Co.,Ltd.
+abstract: "Dear Visa Officer,"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 10.5pt
+# spacing: double
+# bibliography: ~/Dropbox/master.bib
+# biblio-style: apsr
+endnote: no
+---
+
+\vspace{16pt}
+
+I'm writing to apply for a study permit in order to pursue a master’s degree in computer science at Bishop’s University. Thank you for taking the time to review my application.
+
+\vspace{8pt}
+
+\noindent{\large{\textbf{A brief summary of my background}}}
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}I'm a software engineer who does not have a formal computer science degree. I previously worked in the financial industry, but then made a career change into computer and information technology.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}In 2012, I received my bachelor’s degree in economics from Shanghai University of Finance and Economics, one of the top three universities for finance in China. In 2014, I received my master’s degree in economics from Texas A&M University in the US, then I returned to China to find my first job. In early 2015, I was employed by a Japanese company as a financial advisor. A few months later, I had obtained my work visa and moved to Tokyo.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}It was my dream to work in the financial industry until I really worked there, but soon I came to realize that it was not the right career for me. A job in finance and business was lucrative but seemed hollow to me, it never gave me a sense of accomplishment. In contrast, I felt much more fulfilled, excited and motivated while working with data and code, where I had more freedom to think and improvise, that's why I decided to switch to the technology industry. In early 2016, I quit the job to pursue my passion, I returned to China once again and started to learn computer science. In May 18, 2016, after I learned to program in SQL and Python, I was employed by Manulife-Sinochem Life Insurance Co.,Ltd as a novice programmer. Since then, I have been working here as a software engineer in the IT department.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}Over the past three years, I have devoted vast amounts of efforts to learning computer science. Aside from day work, I also studied very hard in my spare time. In order to compensate for my limited background in computer science and enhance my knowledge and skills, I attended many online courses. After three years of dedication and commitment, I have completed more than 30 courses on coursera[^1] in a wide range of topics such as algorithms and machine learning, including some difficult graduate level courses. For your reference, [this](https://www.linkedin.com/in/wentao-lu-90125157/) is a complete list of verified certifications on my LinkedIn profile.
+
+\vspace{8pt}
+
+\noindent{\large{\textbf{The reason for studying in Canada}}}
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}The more I learn, the more I love computer science. However, I also come to realize the importance of a university degree in computer science as well as the limitations of online study.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}On the one hand, after working at Manulife for more than three years as a career switcher, I have almost reached a career plateau due to a lack of profound theoretical knowledge. In contrast, my colleagues who do have a computer science degree tend to get promoted much faster and paid higher. On the other hand, I find that most online courses are designed specifically for non-professionals, they only scratch the surface of computer science, but often fail to provide extensive and in-depth discussions.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}Increasingly, I find it necessary to study in a more comprehensive and systematic way, and I believe that a degree in computer science must be the panacea for this dilemma. Therefore, I decide to pursue another master’s degree in computer science in Canada, where high-quality, well-recognized education resources abound and tuition costs are much lower compared to the US.
+
+\vspace{8pt}
+
+\noindent{\large{\textbf{The reason for choosing Bishop's University}}}
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}I previously studied economics at Texas A&M University, which is the second largest university in the US. It was a great graduate program, but due to the large number of students enrolled at the same time, interactions with faculty members had been really difficult. This time, I'm thinking of exploring a different environment and study experience. I also want to broaden my perspectives and enrich my life experience.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}Bishop’s University is a friendly community and a great place to study at. According to the Maclean’s University Rankings, it is ranked 1st in Canada for student satisfaction and quality of instructors in 2016 and 2018. Unlike many other large universities where a sedentary lifestyle could dominate your graduate student life, it is, however, renowned for its small and intimate classes, which result in students receiving personalized attention by the academic staff. What makes this university second to none is that it offers students a chance to frequently engage with their professors one-on-one, this is almost unheard of elsewhere. If possible, I hope to study here as a full-time student, I hope to interact closely with my professors in this graduate program, solidify what I have learned, and gain a deeper insight into computer science.
+
+\vspace{8pt}
+
+\noindent{\large{\textbf{A draft plan for the future}}}
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}The past few years in China have witnessed considerable technological advancements, especially in the field of applied computer science. This momentum has also led to a growing demand for highly skilled programmers and computer analysts. Currently, there are a lot of top tech companies in Shanghai that offer great opportunities for professional experience and development such as Alibaba and Tencent, as well as many start-up companies that have my dream offers.
+
+\vspace{2pt}
+
+\noindent
+\hspace{14pt}Upon completion of my degree, I'll return to my hometown since my single mother is waiting for me. I would like to apply my newly acquired knowledge into practice, and I look forward to discovering more possibilities in the industry with my new computer science degree. Given that employers today attach great importance to postgraduate qualifications, I believe that this master’s degree will add value to my profile and boost my career prospects in China.
+
+\vspace{8pt}
+
+\noindent{\large{\textbf{Supplementary Information}}}
+
+\vspace{5pt}
+
+\noindent
+__Academic Aptitude__
+
+\vspace{2pt}
+
+Over the past three years, I have gained substantial knowledge and skills in software engineering from my work experience at Manulife, so I'm very confident that I will become a successful graduate student in Canada. In addition, I have completed more than 30 computer science online courses in my spare time, those verified course certifications are listed on my [LinkedIn profile](https://www.linkedin.com/in/wentao-lu-90125157/). For your review, I have also attached my previous transcript from Texas A&M University.
+
+\vspace{6pt}
+
+\noindent
+__English Proficiency__
+
+\vspace{2pt}
+
+Bishop's University has waived my language requirement since I have obtained a degree from the US, that's why I did not take an IELTS test for graduate school application. However, for your reference I have attached my previous TOEFL and GRE test scores (in 2017 and 2018) on the next few pages.
+
+\vspace{6pt}
+
+\noindent
+__Financial Support__
+
+\vspace{2pt}
+
+I was born in a Chinese middle class family, both of my parents are teachers. In 2008, they divorced peacefully and my father moved out. Since then, I have been living with my mother. With respect to the financial resources to support my study in Canada, my mother will pay my tuition fees and other living expenses with her personal savings, a deposit of 295,000 RMB (equivalent to $55,000). Besides, I also have about 150,000 RMB (equivalent to $28,000) in my personal bank account and a Guaranteed Investment Certificate (GIC) of $10,700 with Scotiabank.
+
+
+\vspace{30pt}
+
+\noindent
+Education is an endless journey through knowledge and enlightenment, which in its real sense is the pursuit of truth. As a lifelong learner, I aspire to become a brilliant computer specialist. I genuinely hope that I will have a chance to receive higher education in Canada. Thank you for your consideration.
+
+\vspace{15pt}
+
+\noindent
+Best regards,
+
+\vspace{5pt}
+\noindent{\large{\textbf{\em{Wentao Lu}}}}
+
+[^1]: An American online learning platform founded by Stanford professors Andrew Ng and Daphne Koller that offers massive open online courses (MOOC), specializations, and degrees.
