@@ -88,6 +88,7 @@
 - Thesis sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/Thesis%20Sample.pdf
 
 # JavaScript, HTML and CSS
+- Intro slides in folder - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/
 - Sample URL - [Life on a piece of A4 paper](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html) ([HTML source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html))
 - Sample URL - [Useful elements mixed on a single webpage](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/index.html) ([HTML source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/index.html), [CSS  source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/style.css), [JavaScript source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/script.js))
 - CodePen Pure CSS liquid progress-bar - https://codepen.io/rgg/pen/QbRyOq
