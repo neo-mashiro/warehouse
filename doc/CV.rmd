@@ -1,0 +1,35 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template:  svm-r-markdown-templates/svm-latex-cv.tex
+geometry: margin=0.3in, top=0.7in, bottom=0.7in
+
+title: "CV"
+author: Wentao Lu
+
+# jobtitle: "Software Engineer, Amazon"
+address: "2600 Rue College, Sherbrooke, Québec J1M 1Z7, Canada"
+fontawesome: yes
+email: "wlu19@ubishops.ca"
+github: "neo-mashiro"
+phone: "979-721-1478"
+web: wentao-lu-90125157
+updated: no
+
+keywords: R Markdown, academic CV, template
+
+
+fontfamily: mathpazo
+fontfamilyoptions: sc
+fontsize: 10.5pt  # do not modify, this is the best
+header-includes:
+   - \linespread{1.05}  # do not modify, this is the best
+linkcolor: white
+urlcolor: blue
+---
+
+<!-- NOTE: modified by neo-mashiro on 2019/10/02 -->
+
+<!-- the main body of my CV has been moved to the .tex file for better flexibility -->
+<!-- if some contents are placed here in this .rmd file, they will come first in the final PDF output -->
