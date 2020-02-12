@@ -1,4 +1,9 @@
+> Home of CS
+> https://www.geeksforgeeks.org/
+
+
 # SYS
+
 > file:///home/neo-mashiro/self/Warehouse/CSAPP  
 > file:///home/neo-mashiro/self/Warehouse/SICP  
 > file:///home/neo-mashiro/self/Warehouse/OS
@@ -68,18 +73,19 @@
 - Git Official Reference (in-depth, comprehensive, advanced) - https://git-scm.com/docs
 
 # LaTeX
+- LaTeX template notebook - [latex.tex](https://github.com/neo-mashiro/Warehouse/blob/master/doc/latex.tex), [latex.bib](https://github.com/neo-mashiro/Warehouse/blob/master/doc/latex.bib)
 - Overleaf LaTeX Guide - https://www.overleaf.com/learn/latex/Main_Page
 - The Comprehensive TeX Archive Network - https://www.ctan.org/
 - LaTeX Cheat Sheet - http://tug.ctan.org/info/latex-refsheet/LaTeX_RefSheet.pdf
 - LaTeX Mathematical Symbols - https://www.caam.rice.edu/~heinken/latex/symbols.pdf
 - The Comprehensive LaTeX Symbol List - http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
 - University PhD thesis style LaTeX template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/buthesis.sty
-- CV samples - https://github.com/neo-mashiro/Warehouse/blob/master/doc/CV%20samples.pdf
-- Thesis sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/Thesis%20Sample.pdf
+- CV samples - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/CV%20samples.pdf
+- Thesis sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/Thesis%20Sample.pdf
 
 # JavaScript, HTML and CSS
-- Sample URL - [Life on a piece of A4 paper](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html) ([source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html))
-- Sample URL - [Useful elements mixed on a single webpage](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/index.html) ([source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/index.html))
+- Sample URL - [Life on a piece of A4 paper](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html) ([HTML source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html))
+- Sample URL - [Useful elements mixed on a single webpage](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/index.html) ([HTML source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/index.html), [CSS  source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/style.css), [JavaScript source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/script.js))
 - CodePen Pure CSS liquid progress-bar - https://codepen.io/rgg/pen/QbRyOq
 - CodePen Pure CSS Solar System animation - https://codepen.io/kowlor/pen/ZYYQoy
 - CodePen Pure CSS3 Gradient Background Animation - https://codepen.io/P1N2O/pen/pyBNzX
@@ -90,15 +96,15 @@
 - Markdown Firefox extension for emails - https://github.com/adam-p/markdown-here
 
 # R-Markdown
+- CV template - [.Rmd source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/CV.rmd), [.tex source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/cv.tex)
+- Article template - [.Rmd source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/article.Rmd), [.tex source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/article-ms.tex)
 - Reference Guide - https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf
+- Pandoc User's Guide - https://pandoc.org/MANUAL.html
 - Comprehensive Guide - https://rmarkdown.rstudio.com/index.html
 - Build interactive Shiny Apps - https://shiny.rstudio.com/
 - Steve's R Markdown Templates - https://github.com/svmiller/svm-r-markdown-templates
 - LaTeX Journal Article Templates for R Markdown - https://github.com/rstudio/rticles
-- HTML samples - [Date Exploration](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/brfss_eda.html), [Statistical Inference](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/gss_inference.html), [Multiple_Linear_Regression](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/multiple_linear_regression_peers_Rony_Sulca.html)
-- Pandoc User's Guide - https://pandoc.org/MANUAL.html
-- CV template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/CV.rmd
-- Article template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/article.Rmd
+- HTML samples - [Statistical Inference](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/gss_inference.html) ([source](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/gss_inference.Rmd)), [Multiple_Linear_Regression](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/multiple_linear_regression_peers_Rony_Sulca.html) ([source](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/multiple_linear_regression.Rmd))
 
 # C/C++
 > file:///home/neo-mashiro/self/Warehouse/C++
@@ -135,9 +141,8 @@
 # SAS
 > file:///home/neo-mashiro/self/Warehouse/SAS
 
-# Matlab
+# Math
 - Matlab Online - https://matlab.mathworks.com/
 
-# Mathematica
 - Mathematica Guide - https://www.wolfram.com/language/fast-introduction-for-math-students/en///
 - Wolfram Mathematica Game Center - https://www.zhihu.com/topic/19559256/top-answers

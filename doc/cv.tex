@@ -1,0 +1,569 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+$if(fontfamily)$
+\usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
+$else$
+\usepackage{lmodern}
+$endif$
+$if(linestretch)$
+\usepackage{setspace}
+\setstretch{$linestretch$}
+$endif$
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
+  \usepackage[utf8]{inputenc}
+$if(euro)$
+  \usepackage{eurosym}
+$endif$
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+$if(euro)$
+  \newcommand{\euro}{€}
+$endif$
+$if(mainfont)$
+    \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
+$endif$
+$if(sansfont)$
+    \setsansfont[$for(sansfontoptions)$$sansfontoptions$$sep$,$endfor$]{$sansfont$}
+$endif$
+$if(monofont)$
+    \setmonofont[Mapping=tex-ansi$if(monofontoptions)$,$for(monofontoptions)$$monofontoptions$$sep$,$endfor$$endif$]{$monofont$}
+$endif$
+$if(mathfont)$
+    \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+$endif$
+$if(CJKmainfont)$
+    \usepackage{xeCJK}
+    \setCJKmainfont[$for(CJKoptions)$$CJKoptions$$sep$,$endfor$]{$CJKmainfont$}
+$endif$
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$endif$
+
+
+$if(lang)$
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,$for(babel-otherlangs)$$babel-otherlangs$,$endfor$main=$babel-lang$]{babel}
+$if(babel-newcommands)$
+  $babel-newcommands$
+$endif$
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
+$for(polyglossia-otherlangs)$
+  \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
+$endfor$
+\fi
+$endif$
+$if(natbib)$
+\usepackage{natbib}
+\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
+$endif$
+$if(biblatex)$
+\usepackage$if(biblio-style)$[style=$biblio-style$]$endif${biblatex}
+$if(biblatexoptions)$\ExecuteBibliographyOptions{$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$}$endif$
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
+$endif$
+$if(listings)$
+\usepackage{listings}
+$endif$
+$if(lhs)$
+\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
+$endif$
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+$if(verbatim-in-note)$
+\usepackage{fancyvrb}
+\VerbatimFootnotes % allows verbatim text in footnotes
+$endif$
+$if(tables)$
+\usepackage{longtable,booktabs}
+$endif$
+$if(graphics)$
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+$endif$
+$if(links-as-notes)$
+% Make links footnotes instead of hotlinks:
+\renewcommand{\href}[2]{#2\footnote{\url{#1}}}
+$endif$
+$if(strikeout)$
+\usepackage[normalem]{ulem}
+% avoid problems with \sout in headers with hyperref:
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+$endif$
+$if(indent)$
+$else$
+
+% stuff added by neo-mashiro on 2019/10/02
+\usepackage{xcolor}
+\definecolor{Navy}{rgb}{0,0,0.5}
+\definecolor{Light}{rgb}{0.7,0.7,0.7}
+\usepackage{inconsolata}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{longtable,booktabs}
+\usepackage{multirow}    % enable a table cell to span multiple rows or multiple columns
+\usepackage{siunitx}     % for numbers in a table column to be aligned at the decimal point, formatting unit and style...
+\sisetup{                % specify how many decimal places should displayed
+  round-mode = places,   % round numbers
+  round-precision = 2,   % to 2 decimal places
+}
+
+$endif$
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+$if(numbersections)$
+\setcounter{secnumdepth}{5}
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+$if(subparagraph)$
+$else$
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+$endif$
+$if(dir)$
+\ifxetex
+  % load bidi as late as possible as it modifies e.g. graphicx
+  $if(latex-dir-rtl)$
+  \usepackage[RTLdocument]{bidi}
+  $else$
+  \usepackage{bidi}
+  $endif$
+\fi
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \TeXXeTstate=1
+  \newcommand{\RL}[1]{\beginR #1\endR}
+  \newcommand{\LR}[1]{\beginL #1\endL}
+  \newenvironment{RTL}{\beginR}{\endR}
+  \newenvironment{LTR}{\beginL}{\endL}
+\fi
+$endif$
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+% Now begins the stuff that I added.
+% ----------------------------------
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
+
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1em}  % changed from 1.5em to 1em by neo-mashiro on 2019/10/02
+  }
+}{
+  \end{list}
+}
+
+
+% Make parskips rather than indent with lists.
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+% Use fontawesome. Note: you'll need TeXLive 2015. Update.
+$if(fontawesome)$\usepackage{fontawesome}$endif$
+
+% Fancyhdr, as I tend to do with these personal documents.
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{
+\cfoot{\scriptsize  $author-meta$ - $title$ }}
+\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+% Always load hyperref last.
+\usepackage{hyperref}
+$if(colorlinks)$
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+$endif$
+
+\hypersetup{unicode=true,
+$if(title-meta)$
+            pdftitle={$if(author-meta)$$author-meta$: $endif$ $title-meta$ (Curriculum Vitae)},
+$endif$
+$if(author-meta)$
+            pdfauthor={$author-meta$},
+$endif$
+$if(keywords)$
+            pdfkeywords={$for(keywords)$$keywords$$sep$; $endfor$},
+$endif$
+            colorlinks=true,
+            linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
+            citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
+            urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
+            breaklinks=true, bookmarks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\begin{document}
+
+
+\centerline{\huge \bf $author$}
+
+\vspace{2 mm}
+
+\hrule
+
+\vspace{2 mm}
+
+% url font and content modified by neo-mashiro on 2019/10/02
+% {\tt $email$} -> {$email$}
+% {\tt $github$} -> {Github}
+% \href{http://$web$} -> \href{https://www.linkedin.com/in/$web$}{Linkedin}
+$if(jobtitle)$\moveleft.5\hoffset\centerline{$jobtitle$}$endif$
+$if(address)$\moveleft.5\hoffset\centerline{$address$}$endif$
+\moveleft.5\hoffset\centerline{
+$if(email)$$if(fontawesome)$\faEnvelopeO \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{$email$} \hspace{1 mm}$endif$ $if(phone)$$if(fontawesome)$\faPhone \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ $if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{Github} \hspace{1 mm} $endif$ $if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{https://www.linkedin.com/in/$web$}{Linkedin}  $endif$
+$if(updated)$ | \emph{Updated:} \today$endif$}
+
+\vspace{2 mm}
+
+\hrule
+
+
+$body$  % this is the body of the .rmd file, which comes first in the PDF output
+
+
+
+% Now begins the rest of the CV body in this .tex file, which comes afterwards, by neo-mashiro on 2019/10/02
+% ------------------------------------------------------------------------------
+\begin{tabular}{p{19.4cm}}
+    \rule{0pt}{2mm} \textbf{Université Bishop's} \small(BU)\normalsize \hfill \textcolor{Navy}{Sherbrooke, Québec, Canada, Expected Jun 2021}\\
+    \rule{0pt}{4mm} \hspace{6mm} M.Sc, Computer Science, GPA 3.87/4\\
+    \rule{0pt}{4mm} \textbf{Texas A\&M University} \small(TAMU)\normalsize \hfill \textcolor{Navy}{College Station, Texas, USA, May 2014}\\
+    \rule{0pt}{4mm} \hspace{6mm} M.Sc, Financial Econometrics, GPA 3.93/4\\
+    \rule{0pt}{4mm} \textbf{Shanghai University of Finance and Economics} \small(SHUFE)\normalsize \hfill \textcolor{Navy}{Shanghai, China, Jun 2012}\\
+    \rule{0pt}{4mm} \hspace{6mm} B.Ec, Mathematical Economics, GPA 3.26/4\\
+    \rule{0pt}{4mm} \hspace{6mm} B.BA, Business Administration, Dual Degree\\
+\end{tabular}
+
+\hspace{8mm}\fcolorbox{Light}{white}{%
+  \parbox{.905\linewidth}{%
+  \begin{tabular}{p{1.6cm}p{15.7cm}}
+      \multirow{5}{*}{\footnotesize{\textbf{Coursework}}}
+      & \footnotesize{\textbf{Computer Science}: Data Mining, Parallel Models and Algorithms, Pattern Recognition, Image Analysis, Database Software Design, Concurrent and Real-Time Systems, Compilers and Interpreters, Automata Theory and Computational Complexity}\\
+      & \footnotesize{\textbf{Math, Statistics}: Mathematical Analysis (12 credit hours over 3 semesters), Linear Algebra, Probability Theory, Statistical Methods, Mathematical Statistics, Real Variable Function, Ordinary Differential Function, Stochastic Process}\\
+      & \footnotesize{\textbf{Economics}: Financial Economics, Financial Econometrics, Time Series Forecasting, Financial Decision Making Under Risk, Behavioral Finance, Economics Analysis of Financial Data, Intermediate Macroeconomics, Advanced Microeconomics}\\
+  \end{tabular}
+  }%
+}
+
+\vspace{5mm}
+
+\begin{tabular}{>{\centering}p{2.5cm}|p{16.5cm}}  % >{\centering}p{2.5cm} will center the paragraph column
+    \midrule
+    \multirow{3}{*}{\small\textbf{MOTIVATION}}
+    & Education is an endless journey through knowledge and enlightenment, which in its real sense is the pursuit of truth. As a lifelong learner, I aspire to become an inquisitive, energetic computer science specialist and quantitative data analyst with a solid foundation in both technical skills and industry domain expertise.\\
+
+    \midrule
+    \multirow{16}{*}{\small\textbf{EMPLOYMENT}}
+    & \(\blacktriangleright\) \textbf{Associate Software Engineer, Manulife-Sinochem Life Insurance} \hfill \textcolor{Navy}{Shanghai, May 2016 \textasciitilde\ Sep 2019}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Troubleshooted, supported and maintained the bancassurance transaction processing system built on Oracle relational database and J2EE platform.
+        \item[\textbullet] Interacted with users to document users’ requirements and discuss technical feasibility by evaluating the impact of change on system architecture and functionality.
+        \item[\textbullet] Created flowcharts, diagrams and high-level design documentation as necessary.
+        \item[\textbullet] Designed, developed, unit tested and integrated new applications, features and transaction APIs as defined by the multichannel marketing team to support sales across different banks.
+        \item[\textbullet] Collaborated with vendors and colleagues on the team to analyze and investigate application performance in order to mitigate technical uncertainty and risk.
+        \item[\textbullet] Provided technical support for user testing as well as assisted in the development of automated test harnesses to ensure fast delivery of high quality code.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Financial Advisor, Sanko Soflan Holdings Japan} \hfill \textcolor{Navy}{Tokyo, Jun 2015 \textasciitilde\ Feb 2016}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Conducted site visits regularly to newly released or undisclosed housing properties for data collection.
+        \item[\textbullet] Exchanged daily market data with Japanese local real estate companies and small property agencies.
+        \item[\textbullet] Provided investment planning advice for Chinese customers interested in real estate and land in Japan.
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+    \multirow{11}{*}{\small\textbf{INTERNSHIP}}
+    & \(\blacktriangleright\) \textbf{Business Consultant Intern, Minami-Fuji Japan Consulting} \hfill \textcolor{Navy}{Wuhan, Dec 2014 \textasciitilde\ Feb 2015}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Partnered with 5 students on a team in an intensive business consulting program that was funded by Japanese companies recruiting Chinese graduates and filmed by the China Phoenix TV.
+        \item[\textbullet] Investigated, analyzed and conducted in-depth on-site research into the local senior housing market.
+        \item[\textbullet] Created a 50-page consulting report and presented our marketing strategies to the hiring company.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{HR Database Intern, SilverCourse Group} \hfill \textcolor{Navy}{Shanghai, Jan 2012 \textasciitilde\ Apr 2012}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Assisted in head hunting data management including sorting, filtering and reviewing resumes.
+        \item[\textbullet] Maintained and tracked job application status lists and updated records as necessary.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Forex Trader Intern, Shanghai Shimmer Investment Company} \hfill \textcolor{Navy}{Shanghai, Oct 2011 \textasciitilde\ Dec 2011}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Participated in simulated forex trading using MetaTrader4 platform.
+        \item[\textbullet] Prepared periodic market reports by analyzing trading signals, statistics and trends.
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+\end{tabular}
+
+\newpage
+
+\begin{tabular}{>{\centering}p{2.5cm}|p{16.5cm}}  % >{\centering}p{2.5cm} will center the paragraph column
+    \midrule
+    \multirow{3}{*}{\parbox{2.5cm}{\centering\small\textbf{ONLINE SELF-STUDY}}}
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Aced 200+ problems on \url{leetcode.com} and participated in 10 contests.
+        \item[\textbullet] Completed 40+ Coursera courses in computer science with verified certificates.
+        \item[\textbullet] Completed 2 Udacity nanodegree programs Data Scientist and AI Quantitative Investment.
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+    \multirow{4}{*}{\parbox{2.5cm}{\centering\small\textbf{HONORS \& AWARDS}}}
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Dean’s List, Université Bishop's, 2021
+        \item[\textbullet] Chancellor’s Excellence Scholarship, Université Bishop's, 2020
+        \item[\textbullet] Eric and Candace Innes Award, Université Bishop's, 2020
+        \item[\textbullet] Excellent Paper Award, National Students Economics Innovation Lab, Shanghai, 2011
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+    \multirow{14}{*}{\parbox{2.5cm}{\centering\small\textbf{RESEARCH PROJECTS}}}
+    & \(\blacktriangleright\) \textbf{Sentiment Analysis Model, Udacity} \\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Built and deployed a deep learning model that predicts the sentiment of a user-provided movie review.
+        \item[\textbullet] Created a simple web app that uses the deployed model and accepts user input.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Plagiarism Detector, Udacity} \\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Defined similarity metrics between two text documents and identify cases of plagiarism.
+        \item[\textbullet] Performed feature engineering, trained and deployed a custom, plagiarism-classification model.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Instagram on Amazon Web Services, Udacity} \\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Developed a cloud-based application for uploading, listing, and filtering images using Node.js/Express.
+        \item[\textbullet] Implemented a REST API to issue commands using HTTP, stored data in AWS with secure authentication signon features, and deployed to AWS Elastic Beanstalk.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Research Assistant (Remote), UC Berkeley Machine Learning Lab} \hfill \textcolor{Navy}{Online, Sep \textasciitilde\ Nov 2017}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Assisted with data analysis for the kaggle competition Zillow's Prize.
+        \item[\textbullet] Performed various data processing steps and experimented with feature engineering.
+        \item[\textbullet] Prepared Jupyter notebooks for presentation during weekly online discussions.
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+    \multirow{3}{*}{\small\textbf{LANGUAGES}}
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Intermediate proficiency in English. \small (IELTS 8/9, GRE 328/340) \normalsize
+        \item[\textbullet] Professional proficiency in Japanese. \small (JLPT N1 Level) \normalsize
+        \item[\textbullet] Native in Mandarin Chinese.
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+    \multirow{17}{*}{\parbox{2.5cm}{\centering\small\textbf{TECHNICAL SKILLS}}}
+    & \(\blacktriangleright\) \textbf{Software Development}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Strong CS fundamentals in object-oriented design, algorithms, and data structures.
+        \item[\textbullet] Proficient in SQL, PL/SQL and Oracle database, familiar with MongoDB Atlas.
+        \item[\textbullet] Excellent programming skills of Python, Java, C/C++.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Machine Learning}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Experience with Apache Spark and Hadoop, familiar with cloud computing.
+        \item[\textbullet] Experience with Caffe, Tensorflow, good understanding of supervised and reinforcement learning.
+        \item[\textbullet] Good command of data analysis libraries NumPy, Pandas, scikit-learn, matplotlib.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Operating Systems, IDE, Software Toolbox}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Experience with CLion, PyCharm, IntelliJ IDEA, DataGrip and Mathematica.
+        \item[\textbullet] Familiar with Linux OS, Unix Shell, Git/SVN version control, Markdown/LaTeX typesetting.
+        \item[\textbullet] Basic knowledge of HTML, CSS, JavaScript and Raspberry Pi ARM architecture.
+      \vspace{-4mm}
+      \end{itemize}\\
+    & \vspace{-3mm}
+    \(\blacktriangleright\) \textbf{Finance, Business Analytics}\\
+    & \vspace{-2mm}
+      \begin{itemize}
+        \item[\textbullet] Certified SAS base \& advanced programmer, prior experience with R/Matlab.
+        \item[\textbullet] Comfortable working with Excel formulas and functions for data analysis.
+        \item[\textbullet] Society of Actuaries (SOA) exams: Exam P, Exam FM.
+      \vspace{-4mm}
+      \end{itemize}\\
+
+    \midrule
+    \multirow{2}{*}{\small\textbf{PART-TIME}}
+    & \(\blacktriangleright\) Delivery Driver, Chef Cao's Restaurant \hfill \textcolor{Navy}{Texas, Apr 2013 \textasciitilde\ May 2014}\\
+    \rule{0pt}{4mm}
+    & \(\blacktriangleright\) Waiter \& Cashier, Taste of China \hfill \textcolor{Navy}{Texas, Apr 2013 \textasciitilde\ May 2014}\\
+
+    \midrule
+    \multirow{3}{*}{\parbox{2.5cm}{\centering\small\textbf{VOLUNTEER WORK}}}
+    & \(\blacktriangleright\) Community Volunteer, \small TAMU \normalsize "The Big Event" \hfill \textcolor{Navy}{Texas, Mar 2013, Mar 2014}\\
+    \rule{0pt}{4mm}
+    & \(\blacktriangleright\) Teaching Assistant, Pre-College Summer Camp, \small SHUFE \normalsize \hfill \textcolor{Navy}{Shanghai, Jul 2012 \textasciitilde\ Aug 2012}\\
+    \rule{0pt}{4mm}
+    & \(\blacktriangleright\) High School Student Tutor, \small SHUFE \normalsize Volunteer Club \hfill \textcolor{Navy}{Shanghai, Sep 2010 \textasciitilde\ Jun 2011}\\
+
+    \midrule
+\end{tabular}
+
+\newpage
+
+\begin{center} \large{\textbf{Appendix - Online Certifications}} \end{center}
+
+\small
+
+\begin{longtable}[c]{|p{4.5cm}|p{14.5cm}|}  % \begin{longtable}[position_on_page]{alignment}
+  \toprule
+  \textbf{Institution} & \textbf{Udacity Nanodegree Program Certificate} \\
+  \midrule
+  \endfirsthead
+  IBM Watson, Insight, kaggle & Data Scientist              \\
+  WorldQuant                  & AI Quantitative Investment  \\
+  \bottomrule
+\end{longtable}
+
+\vspace{-4mm}
+
+\begin{longtable}[c]{|p{4.5cm}|p{14.5cm}|}  % \begin{longtable}[position_on_page]{alignment}
+  \toprule
+  \textbf{Institution} & \textbf{Coursera Course Certificate} \\
+  \midrule
+  \endfirsthead
+  UC San Diego/HSE          & Algorithmic Toolbox                                                  \\
+                            & Data Structures                                                      \\
+  Stanford University       & Divide and Conquer, Sorting and Searching, and Randomized Algorithms \\
+                            & Graph Search, Shortest Paths, and Data Structures                    \\
+                            & Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming   \\
+  \midrule
+  Stanford University       & Machine Learning                                                     \\
+  University of Michigan    & Applied Machine Learning in Python                                   \\
+  University of Washington  & Machine Learning Foundations: A Case Study Approach                  \\
+                            & Machine Learning: Regression                                         \\
+                            & Machine Learning: Classification                                     \\
+                            & Machine Learning: Clustering \& Retrieval                            \\
+  \midrule
+  IBM                       & What is Data Science                                                 \\
+                            & Open Source tools for Data Science                                   \\
+                            & Data Science Methodology                                             \\
+                            & Databases and SQL for Data Science                                   \\
+  \midrule
+  MongoDB Inc.              & Introduction to MongoDB                                              \\
+                            & MongoDB Aggregation Framework                                        \\
+  University of Michigan    & Using Databases with Python                                          \\
+                            & Using Python to Access Web Data                                      \\
+  \midrule
+  Rice University           & An Introduction to Interactive Programming in Python (Part 1)        \\
+                            & An Introduction to Interactive Programming in Python (Part 2)        \\
+                            & Principles of Computing (Part 1)                                     \\
+                            & Principles of Computing (Part 2)                                     \\
+                            & Python Programming Essentials                                        \\
+                            & Python Data Representations                                          \\
+                            & Python Data Analysis                                                 \\
+                            & Python Data Visualization                                            \\
+  \midrule
+  Duke University           & Statistics with R: Introduction to Probability and Data              \\
+                            & Statistics with R: Inferential Statistics                            \\
+                            & Statistics with R: Linear Regression and Modeling                    \\
+  \midrule
+  Atlassian                 & Version Control with Git                                             \\
+  Johns Hopkins University  & The Unix Workbench                                                   \\
+  UCSD/McMaster University  & Learn Learning How to Learn: Powerful mental tools to help you master tough subjects \\
+  \bottomrule
+\end{longtable}
+
+% End of the rest of the CV body in this .tex file
+% ------------------------------------------------------------------------------
+
+
+$if(natbib)$
+$if(bibliography)$
+$if(biblio-title)$
+$if(book-class)$
+\renewcommand\bibname{$biblio-title$}
+$else$
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+\bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
+
+$endif$
+$endif$
+$if(biblatex)$
+\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+
+$endif$
+$for(include-after)$
+$include-after$
+
+$endfor$
+\end{document}
