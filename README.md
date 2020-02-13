@@ -36,6 +36,7 @@
 - CMU CS15-441/641, Computer Networks - https://computer-networks.github.io/sp19/index.html
 - Stanford CS144, Introduction to Computer Networking - https://www.scs.stanford.edu/10au-cs144/
 - Beej's Guide to Network Programming Using Internet Sockets - http://beej.us/guide/bgnet/html/
+- Beej's Guide to Unix Interprocess Communication - http://beej.us/guide/bgipc/html/single/bgipc.html
 - POSIX Threads Programming - https://computing.llnl.gov/tutorials/pthreads/
 - POSIX thread (pthread) libraries - http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
 
