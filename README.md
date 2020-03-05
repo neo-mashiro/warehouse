@@ -10,6 +10,7 @@
 - Computer Architecture, Coursera - https://www.coursera.org/learn/comparch
 - Stanford CS140, Operating Systems - https://www.scs.stanford.edu/19wi-cs140/
 - CMU 15-410, Operating System Design and Implementation - https://www.cs.cmu.edu/~410/
+- UIUC CS 241, System Programming - http://cs241.cs.illinois.edu/
 
 # ALGO
 
