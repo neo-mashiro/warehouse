@@ -32,12 +32,13 @@
 - MongoDB Quick Reference Cards - https://www.mongodb.com/collateral/quick-reference-cards
 - CMU 15-445/645, Intro to Database Systems - https://15445.courses.cs.cmu.edu/fall2019/
 
-# Net
+# Net, Concurrent, Parallel, Distributed SYS
 > file:///home/neo-mashiro/self/Warehouse/Net
 - CMU CS15-441/641, Computer Networks - https://computer-networks.github.io/sp19/index.html
 - Stanford CS144, Introduction to Computer Networking - https://www.scs.stanford.edu/10au-cs144/
 - Beej's Guide to Network Programming Using Internet Sockets - http://beej.us/guide/bgnet/html/
 - Beej's Guide to Unix Interprocess Communication - http://beej.us/guide/bgipc/html/single/bgipc.html
+- Introduction to Parallel Computing - https://computing.llnl.gov/tutorials/parallel_comp/
 - POSIX Threads Programming - https://computing.llnl.gov/tutorials/pthreads/
 - POSIX thread (pthread) libraries - http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
 
