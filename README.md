@@ -11,6 +11,7 @@
 - Stanford CS140, Operating Systems - https://www.scs.stanford.edu/19wi-cs140/
 - CMU 15-410, Operating System Design and Implementation - https://www.cs.cmu.edu/~410/
 - UIUC CS 241, System Programming - http://cs241.cs.illinois.edu/
+- UIUC CS 241 (2012 ver.), System Programming (more details) - https://courses.engr.illinois.edu/cs241/sp2012/
 
 # ALGO
 
