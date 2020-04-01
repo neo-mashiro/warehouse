@@ -12,6 +12,7 @@
 - CMU 15-410, Operating System Design and Implementation - https://www.cs.cmu.edu/~410/
 - UIUC CS 241, System Programming - http://cs241.cs.illinois.edu/
 - UIUC CS 241 (2012 ver.), System Programming (more details) - https://courses.engr.illinois.edu/cs241/sp2012/
+- UIUC CS 241 Github Wiki - https://github.com/angrave/SystemProgramming/wiki
 
 # ALGO
 
