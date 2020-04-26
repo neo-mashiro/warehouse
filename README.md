@@ -100,10 +100,11 @@
 - CodePen Pure CSS Solar System animation - https://codepen.io/kowlor/pen/ZYYQoy
 - CodePen Pure CSS3 Gradient Background Animation - https://codepen.io/P1N2O/pen/pyBNzX
 
-# Markdown
+# Markdown & RST
 - Markdown notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/markdown.md
 - Markdown cheatsheet - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Markdown Firefox extension for emails - https://github.com/adam-p/markdown-here
+- reStructuredText cheatsheet - https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
 
 # R-Markdown
 - CV template - [.Rmd source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/CV.rmd), [.tex source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/cv.tex)
