@@ -91,6 +91,7 @@
 - University PhD thesis style LaTeX template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/buthesis.sty
 - CV samples - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/CV%20samples.pdf
 - Thesis sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/Thesis%20Sample.pdf
+- Advanced LaTeX package programming and graphics - https://en.wikibooks.org/wiki/LaTeX
 
 # JavaScript, HTML and CSS
 - Intro slides in folder - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/
