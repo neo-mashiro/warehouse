@@ -14,13 +14,6 @@
 - UIUC CS 241 (2012 ver.), System Programming (more details) - https://courses.engr.illinois.edu/cs241/sp2012/
 - UIUC CS 241 Github Wiki - https://github.com/angrave/SystemProgramming/wiki
 
-# ALGO
-
-> file:///home/neo-mashiro/self/Warehouse/ALGO
-- Algorithms and data structures notebook - [Part 1](https://github.com/neo-mashiro/Warehouse/blob/master/doc/algo1.ipynb), [Part 2](https://github.com/neo-mashiro/Warehouse/blob/master/doc/algo2.ipynb)
-- Graphs and networks - [NetworkX workshop](https://github.com/neo-mashiro/Warehouse/blob/master/doc/NetworkX%20workshop), [NetworkX SNA workshop](https://github.com/neo-mashiro/Warehouse/blob/master/doc/NetworkX%20SNA%20workshop)
-- Path to FLAG offers - https://leetcode.com/, https://www.lintcode.com/
-
 
 # DB
 > file:///home/neo-mashiro/self/Warehouse/DB  
@@ -40,9 +33,6 @@
 - Stanford CS144, Introduction to Computer Networking - https://www.scs.stanford.edu/10au-cs144/
 - Beej's Guide to Network Programming Using Internet Sockets - http://beej.us/guide/bgnet/html/
 - Beej's Guide to Unix Interprocess Communication - http://beej.us/guide/bgipc/html/single/bgipc.html
-- Introduction to Parallel Computing - https://computing.llnl.gov/tutorials/parallel_comp/
-- POSIX Threads Programming - https://computing.llnl.gov/tutorials/pthreads/
-- POSIX thread (pthread) libraries - http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
 
 # Raspberry Pi
 - IOT Specialization, Coursera - https://www.coursera.org/specializations/iot
@@ -54,69 +44,27 @@
 - Stanford CS229, Machine Learning - http://cs229.stanford.edu/
 - Machine Learning, Coursera - https://www.coursera.org/learn/machine-learning/resources/JXWWS
 - UW Machine Learning Specialization, Coursera - https://www.coursera.org/specializations/machine-learning
-  - GraphLab Create Documentation - https://turi.com/learn/
 - Deep Learning Specialization, Coursera - https://www.coursera.org/specializations/deep-learning
   - Reference notebook - [notebook 1](https://github.com/Kulbear/deep-learning-coursera), [notebook 2](https://github.com/mbadry1/DeepLearning.ai-Summary)
 - Advanced Machine Learning Specialization, Coursera - https://www.coursera.org/specializations/aml
 - TensorFlow in Practice Specialization, Coursera - https://www.coursera.org/specializations/tensorflow-in-practice
 
-# Unix
-- Ubuntu 16.04 Installation Guide - on [wiki page](https://github.com/neo-mashiro/Warehouse/wiki/Ubuntu-16.04-LTS-64-bit-Installation-&-Configuration-Guide)
-- GDB tutorial - https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf
-- GDB demo - https://www.youtube.com/watch?v=bWH-nL7v5F4
-- Makefile sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/makefile.md
-- Shell review - https://github.com/neo-mashiro/Warehouse/blob/master/doc/commands.sh
-- Shell in Jupyter notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/shell.ipynb
-- VPS Setup Guide - on [wiki page](https://github.com/neo-mashiro/Warehouse/wiki/Virtual-Private-Server-Setup-Guide)
-- VPS automated task - https://github.com/neo-mashiro/Warehouse/blob/master/doc/vps.sh
-
-# Emacs
-> `root@starspower > emacs -nw  # editor mode`
-- A Guided Tour of Emacs - https://www.gnu.org/software/emacs/tour/
-- GNU Emacs Reference Card - https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
-
 # Git
-- Git notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/Git.sh
 - Version Control with Git, Coursera, https://www.coursera.org/learn/version-control-with-git/
 - Atlassian Git Tutorial (simple, useful, easy to understand) - https://www.atlassian.com/git
 - Git Official Reference (in-depth, comprehensive, advanced) - https://git-scm.com/docs
 
 # LaTeX
-- LaTeX template notebook - [latex.tex](https://github.com/neo-mashiro/Warehouse/blob/master/doc/latex.tex), [latex.bib](https://github.com/neo-mashiro/Warehouse/blob/master/doc/latex.bib)
-- Overleaf LaTeX Guide - https://www.overleaf.com/learn/latex/Main_Page
-- The Comprehensive TeX Archive Network - https://www.ctan.org/
 - LaTeX Cheat Sheet - http://tug.ctan.org/info/latex-refsheet/LaTeX_RefSheet.pdf
 - LaTeX Mathematical Symbols - https://www.caam.rice.edu/~heinken/latex/symbols.pdf
 - The Comprehensive LaTeX Symbol List - http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
-- University PhD thesis style LaTeX template - https://github.com/neo-mashiro/Warehouse/blob/master/doc/buthesis.sty
-- CV samples - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/CV%20samples.pdf
-- Thesis sample - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/Thesis%20Sample.pdf
 - Advanced LaTeX package programming and graphics - https://en.wikibooks.org/wiki/LaTeX
 
-# JavaScript, HTML and CSS
-- Intro slides in folder - https://github.com/neo-mashiro/Warehouse/blob/master/doc/pdf/
-- Sample URL - [Life on a piece of A4 paper](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html) ([HTML source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/Life%20on%20A4.html))
-- Sample URL - [Useful elements mixed on a single webpage](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/index.html) ([HTML source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/index.html), [CSS  source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/style.css), [JavaScript source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/script.js))
-- CodePen Pure CSS liquid progress-bar - https://codepen.io/rgg/pen/QbRyOq
-- CodePen Pure CSS Solar System animation - https://codepen.io/kowlor/pen/ZYYQoy
-- CodePen Pure CSS3 Gradient Background Animation - https://codepen.io/P1N2O/pen/pyBNzX
-
-# Markdown & RST
-- Markdown notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/markdown.md
-- Markdown cheatsheet - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-- Markdown Firefox extension for emails - https://github.com/adam-p/markdown-here
-- reStructuredText cheatsheet - https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
-
 # R-Markdown
-- CV template - [.Rmd source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/CV.rmd), [.tex source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/cv.tex)
-- Article template - [.Rmd source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/article.Rmd), [.tex source](https://github.com/neo-mashiro/Warehouse/blob/master/doc/article-ms.tex)
 - Reference Guide - https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf
-- Pandoc User's Guide - https://pandoc.org/MANUAL.html
-- Comprehensive Guide - https://rmarkdown.rstudio.com/index.html
 - Build interactive Shiny Apps - https://shiny.rstudio.com/
 - Steve's R Markdown Templates - https://github.com/svmiller/svm-r-markdown-templates
 - LaTeX Journal Article Templates for R Markdown - https://github.com/rstudio/rticles
-- HTML samples - [Statistical Inference](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/gss_inference.html) ([source](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/gss_inference.Rmd)), [Multiple_Linear_Regression](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/multiple_linear_regression_peers_Rony_Sulca.html) ([source](https://nbviewer.jupyter.org/github/neo-mashiro/Warehouse/blob/master/doc/multiple_linear_regression.Rmd))
 
 # C/C++
 > file:///home/neo-mashiro/self/Warehouse/C++
@@ -126,7 +74,6 @@
 - C++ Library reference 1 - http://www.cplusplus.com/reference/
 - C++ Library reference 2 - https://en.cppreference.com/w/
 - C++ Library reference 3 - https://docs.microsoft.com/en-us/cpp/ (use search box in the upper right corner)
-- Beej's Guide to C Programming - https://beej.us/guide/bgc/html/single/bgc.html
 - Stanford CS106L, Standard C++ Programming - http://web.stanford.edu/class/cs106l/index.html
 - Modern C++ 11/14/17/20 Tutorial - https://changkun.de/modern-cpp/
 
@@ -139,20 +86,15 @@
 
 # Python
 - Google Python Style Guide - http://google.github.io/styleguide/pyguide.html
-- Notebook - https://github.com/neo-mashiro/Warehouse/blob/master/doc/Python.ipynb
+- Notebook - local
 - UWPCE materials - https://uwpce-pythoncert.github.io/PythonCertDevel/index.html
-- Python Standard Library - https://docs.python.org/3/library/index.html
 - Jupyter notebook tips and tricks - https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
 - Manage packages with pip - https://pip-python3.readthedocs.io/en/stable/user_guide.html
-- Package reference - [numpy](), [pandas](), [matplotlib](), [seaborn](), [networkx](https://networkx.github.io/documentation/stable/index.html)
 
 # R/Rstudio
 > file:///home/neo-mashiro/self/Warehouse/R
 - Base R Cheat Sheet - https://rstudio.com/wp-content/uploads/2016/05/base-r.pdf
 - RStudio Cheat Sheets Library - https://rstudio.com/resources/cheatsheets/
-
-# SAS
-> file:///home/neo-mashiro/self/Warehouse/SAS
 
 # Math
 - Matlab Online - https://matlab.mathworks.com/
