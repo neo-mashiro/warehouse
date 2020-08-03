@@ -50,7 +50,7 @@
   - Reference notebook - [notebook 1](https://github.com/Kulbear/deep-learning-coursera), [notebook 2](https://github.com/mbadry1/DeepLearning.ai-Summary)
 - Advanced Machine Learning Specialization, Coursera - https://www.coursera.org/specializations/aml
 - TensorFlow in Practice Specialization, Coursera - https://www.coursera.org/specializations/tensorflow-in-practice
-- Stanford CS231n - http://cs231n.stanford.edu/2019/
+- Stanford CS231n, Convolutional Neural Networks for Visual Recognition - http://cs231n.stanford.edu/2019/
 
 # Git
 - Version Control with Git, Coursera, https://www.coursera.org/learn/version-control-with-git/
