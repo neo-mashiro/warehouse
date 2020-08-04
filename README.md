@@ -51,6 +51,7 @@
 - Advanced Machine Learning Specialization, Coursera - https://www.coursera.org/specializations/aml
 - TensorFlow in Practice Specialization, Coursera - https://www.coursera.org/specializations/tensorflow-in-practice
 - Stanford CS231n, Convolutional Neural Networks for Visual Recognition - http://cs231n.stanford.edu/2019/
+- UT CSC321, Introduction to Neural Networks and Machine Learning - http://www.cs.toronto.edu/~tijmen/csc321/
 
 # Git
 - Version Control with Git, Coursera, https://www.coursera.org/learn/version-control-with-git/
