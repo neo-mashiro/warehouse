@@ -1,3 +1,3 @@
-# Notepad
+# warehouse
 
-A private repository for saving some personal notes ......
+A codeless repository for private data and personal notes, see details in [wiki](https://github.com/neo-mashiro/warehouse/wiki).
